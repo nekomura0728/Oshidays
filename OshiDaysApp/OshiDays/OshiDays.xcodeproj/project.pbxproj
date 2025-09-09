@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		149EC7432E6FB0170043A76A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EC7422E6FB0170043A76A /* WidgetKit.framework */; };
+		149EC7452E6FB0170043A76A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149EC7442E6FB0170043A76A /* SwiftUI.framework */; };
+		149EC7542E6FB01A0043A76A /* OshiDaysWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 149EC7402E6FB0170043A76A /* OshiDaysWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		149EC7202E6FAFBD0043A76A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 149EC7072E6FAFBB0043A76A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 149EC70E2E6FAFBB0043A76A;
+			remoteInfo = OshiDays;
+		};
+		149EC72A2E6FAFBD0043A76A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 149EC7072E6FAFBB0043A76A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 149EC70E2E6FAFBB0043A76A;
+			remoteInfo = OshiDays;
+		};
+		149EC7522E6FB01A0043A76A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 149EC7072E6FAFBB0043A76A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 149EC73F2E6FB0170043A76A;
+			remoteInfo = OshiDaysWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		149EC7592E6FB01A0043A76A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				149EC7542E6FB01A0043A76A /* OshiDaysWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		147FD2CC2E6FCE0100683F05 /* OshiDaysWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OshiDaysWidgetExtension.entitlements; sourceTree = "<group>"; };
+		149EC70F2E6FAFBB0043A76A /* OshiDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OshiDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		149EC71F2E6FAFBD0043A76A /* OshiDaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OshiDaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		149EC7292E6FAFBD0043A76A /* OshiDaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OshiDaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		149EC7402E6FB0170043A76A /* OshiDaysWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OshiDaysWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		149EC7422E6FB0170043A76A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		149EC7442E6FB0170043A76A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		149EC7552E6FB01A0043A76A /* Exceptions for "OshiDaysWidget" folder in "OshiDaysWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 149EC73F2E6FB0170043A76A /* OshiDaysWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		149EC7112E6FAFBB0043A76A /* OshiDays */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OshiDays;
+			sourceTree = "<group>";
+		};
+		149EC7222E6FAFBD0043A76A /* OshiDaysTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OshiDaysTests;
+			sourceTree = "<group>";
+		};
+		149EC72C2E6FAFBD0043A76A /* OshiDaysUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OshiDaysUITests;
+			sourceTree = "<group>";
+		};
+		149EC7462E6FB0170043A76A /* OshiDaysWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				149EC7552E6FB01A0043A76A /* Exceptions for "OshiDaysWidget" folder in "OshiDaysWidgetExtension" target */,
+			);
+			path = OshiDaysWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		149EC70C2E6FAFBB0043A76A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149EC71C2E6FAFBD0043A76A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149EC7262E6FAFBD0043A76A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149EC73D2E6FB0170043A76A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149EC7452E6FB0170043A76A /* SwiftUI.framework in Frameworks */,
+				149EC7432E6FB0170043A76A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		149EC7062E6FAFBB0043A76A = {
+			isa = PBXGroup;
+			children = (
+				147FD2CC2E6FCE0100683F05 /* OshiDaysWidgetExtension.entitlements */,
+				149EC7112E6FAFBB0043A76A /* OshiDays */,
+				149EC7222E6FAFBD0043A76A /* OshiDaysTests */,
+				149EC72C2E6FAFBD0043A76A /* OshiDaysUITests */,
+				149EC7462E6FB0170043A76A /* OshiDaysWidget */,
+				149EC7412E6FB0170043A76A /* Frameworks */,
+				149EC7102E6FAFBB0043A76A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		149EC7102E6FAFBB0043A76A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				149EC70F2E6FAFBB0043A76A /* OshiDays.app */,
+				149EC71F2E6FAFBD0043A76A /* OshiDaysTests.xctest */,
+				149EC7292E6FAFBD0043A76A /* OshiDaysUITests.xctest */,
+				149EC7402E6FB0170043A76A /* OshiDaysWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		149EC7412E6FB0170043A76A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				149EC7422E6FB0170043A76A /* WidgetKit.framework */,
+				149EC7442E6FB0170043A76A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		149EC70E2E6FAFBB0043A76A /* OshiDays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149EC7332E6FAFBD0043A76A /* Build configuration list for PBXNativeTarget "OshiDays" */;
+			buildPhases = (
+				149EC70B2E6FAFBB0043A76A /* Sources */,
+				149EC70C2E6FAFBB0043A76A /* Frameworks */,
+				149EC70D2E6FAFBB0043A76A /* Resources */,
+				149EC7592E6FB01A0043A76A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				149EC7532E6FB01A0043A76A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				149EC7112E6FAFBB0043A76A /* OshiDays */,
+			);
+			name = OshiDays;
+			packageProductDependencies = (
+			);
+			productName = OshiDays;
+			productReference = 149EC70F2E6FAFBB0043A76A /* OshiDays.app */;
+			productType = "com.apple.product-type.application";
+		};
+		149EC71E2E6FAFBD0043A76A /* OshiDaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149EC7362E6FAFBD0043A76A /* Build configuration list for PBXNativeTarget "OshiDaysTests" */;
+			buildPhases = (
+				149EC71B2E6FAFBD0043A76A /* Sources */,
+				149EC71C2E6FAFBD0043A76A /* Frameworks */,
+				149EC71D2E6FAFBD0043A76A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				149EC7212E6FAFBD0043A76A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				149EC7222E6FAFBD0043A76A /* OshiDaysTests */,
+			);
+			name = OshiDaysTests;
+			packageProductDependencies = (
+			);
+			productName = OshiDaysTests;
+			productReference = 149EC71F2E6FAFBD0043A76A /* OshiDaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		149EC7282E6FAFBD0043A76A /* OshiDaysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149EC7392E6FAFBD0043A76A /* Build configuration list for PBXNativeTarget "OshiDaysUITests" */;
+			buildPhases = (
+				149EC7252E6FAFBD0043A76A /* Sources */,
+				149EC7262E6FAFBD0043A76A /* Frameworks */,
+				149EC7272E6FAFBD0043A76A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				149EC72B2E6FAFBD0043A76A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				149EC72C2E6FAFBD0043A76A /* OshiDaysUITests */,
+			);
+			name = OshiDaysUITests;
+			packageProductDependencies = (
+			);
+			productName = OshiDaysUITests;
+			productReference = 149EC7292E6FAFBD0043A76A /* OshiDaysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		149EC73F2E6FB0170043A76A /* OshiDaysWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149EC7562E6FB01A0043A76A /* Build configuration list for PBXNativeTarget "OshiDaysWidgetExtension" */;
+			buildPhases = (
+				149EC73C2E6FB0170043A76A /* Sources */,
+				149EC73D2E6FB0170043A76A /* Frameworks */,
+				149EC73E2E6FB0170043A76A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				149EC7462E6FB0170043A76A /* OshiDaysWidget */,
+			);
+			name = OshiDaysWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = OshiDaysWidgetExtension;
+			productReference = 149EC7402E6FB0170043A76A /* OshiDaysWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		149EC7072E6FAFBB0043A76A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					149EC70E2E6FAFBB0043A76A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					149EC71E2E6FAFBD0043A76A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 149EC70E2E6FAFBB0043A76A;
+					};
+					149EC7282E6FAFBD0043A76A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 149EC70E2E6FAFBB0043A76A;
+					};
+					149EC73F2E6FB0170043A76A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 149EC70A2E6FAFBB0043A76A /* Build configuration list for PBXProject "OshiDays" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 149EC7062E6FAFBB0043A76A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 149EC7102E6FAFBB0043A76A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				149EC70E2E6FAFBB0043A76A /* OshiDays */,
+				149EC71E2E6FAFBD0043A76A /* OshiDaysTests */,
+				149EC7282E6FAFBD0043A76A /* OshiDaysUITests */,
+				149EC73F2E6FB0170043A76A /* OshiDaysWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		149EC70D2E6FAFBB0043A76A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149EC71D2E6FAFBD0043A76A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149EC7272E6FAFBD0043A76A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149EC73E2E6FB0170043A76A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		149EC70B2E6FAFBB0043A76A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149EC71B2E6FAFBD0043A76A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149EC7252E6FAFBD0043A76A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149EC73C2E6FB0170043A76A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		149EC7212E6FAFBD0043A76A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 149EC70E2E6FAFBB0043A76A /* OshiDays */;
+			targetProxy = 149EC7202E6FAFBD0043A76A /* PBXContainerItemProxy */;
+		};
+		149EC72B2E6FAFBD0043A76A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 149EC70E2E6FAFBB0043A76A /* OshiDays */;
+			targetProxy = 149EC72A2E6FAFBD0043A76A /* PBXContainerItemProxy */;
+		};
+		149EC7532E6FB01A0043A76A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 149EC73F2E6FB0170043A76A /* OshiDaysWidgetExtension */;
+			targetProxy = 149EC7522E6FB01A0043A76A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		149EC7312E6FAFBD0043A76A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		149EC7322E6FAFBD0043A76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		149EC7342E6FAFBD0043A76A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OshiDays/OshiDays.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OshiDays/Preview Content\"";
+				DEVELOPMENT_TEAM = RVU4KGDM65;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizaria.oshidays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		149EC7352E6FAFBD0043A76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OshiDays/OshiDays.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OshiDays/Preview Content\"";
+				DEVELOPMENT_TEAM = RVU4KGDM65;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizaria.oshidays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		149EC7372E6FAFBD0043A76A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVU4KGDM65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizaria.oshidays.OshiDaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OshiDays.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OshiDays";
+			};
+			name = Debug;
+		};
+		149EC7382E6FAFBD0043A76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVU4KGDM65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizaria.oshidays.OshiDaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OshiDays.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OshiDays";
+			};
+			name = Release;
+		};
+		149EC73A2E6FAFBD0043A76A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVU4KGDM65;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizaria.oshidays.OshiDaysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OshiDays;
+			};
+			name = Debug;
+		};
+		149EC73B2E6FAFBD0043A76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVU4KGDM65;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizaria.oshidays.OshiDaysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OshiDays;
+			};
+			name = Release;
+		};
+		149EC7572E6FB01A0043A76A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = OshiDaysWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVU4KGDM65;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OshiDaysWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OshiDaysWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizaria.oshidays.OshiDaysWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		149EC7582E6FB01A0043A76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = OshiDaysWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVU4KGDM65;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OshiDaysWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OshiDaysWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizaria.oshidays.OshiDaysWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		149EC70A2E6FAFBB0043A76A /* Build configuration list for PBXProject "OshiDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149EC7312E6FAFBD0043A76A /* Debug */,
+				149EC7322E6FAFBD0043A76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149EC7332E6FAFBD0043A76A /* Build configuration list for PBXNativeTarget "OshiDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149EC7342E6FAFBD0043A76A /* Debug */,
+				149EC7352E6FAFBD0043A76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149EC7362E6FAFBD0043A76A /* Build configuration list for PBXNativeTarget "OshiDaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149EC7372E6FAFBD0043A76A /* Debug */,
+				149EC7382E6FAFBD0043A76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149EC7392E6FAFBD0043A76A /* Build configuration list for PBXNativeTarget "OshiDaysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149EC73A2E6FAFBD0043A76A /* Debug */,
+				149EC73B2E6FAFBD0043A76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149EC7562E6FB01A0043A76A /* Build configuration list for PBXNativeTarget "OshiDaysWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149EC7572E6FB01A0043A76A /* Debug */,
+				149EC7582E6FB01A0043A76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 149EC7072E6FAFBB0043A76A /* Project object */;
+}
