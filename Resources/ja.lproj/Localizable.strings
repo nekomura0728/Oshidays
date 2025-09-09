@@ -42,3 +42,15 @@
 "Live" = "ライブ";
 "Release" = "発売";
 "Stream" = "配信";
+"How to Add Widget" = "ウィジェットの追加方法";
+"Widget Tutorial" = "ウィジェットのチュートリアル";
+"Add a Widget to Home" = "ホーム画面にウィジェットを追加";
+"Long‑press empty area on Home, tap the + button." = "ホーム画面の空白を長押しし、右上の＋をタップ";
+"Search and select OshiDays (推し待ち)." = "『OshiDays（推し待ち）』を検索して選択";
+"Choose Photo Card or List, pick a size, then Add Widget." = "Photo CardまたはListを選び、サイズを選んで『ウィジェットを追加』";
+"Tap the widget to edit the event." = "ウィジェットをタップするとイベント編集が開きます";
+"Tips" = "ヒント";
+"Photos show on Photo Card with Pro. Free shows color band." = "写真表示はProで有効（Freeは色の帯を表示）";
+"If it doesn't refresh, re‑add or resize the widget." = "反映されない場合は再追加・サイズ変更で更新できます";
+"Open Help Page" = "ヘルプページを開く";
+"Close" = "閉じる";

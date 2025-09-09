@@ -6,6 +6,7 @@ struct EventListView: View {
     @State private var showingAdd = false
     @State private var editEvent: Event?
     @State private var showPaywall = false
+    @State private var showWidgetTutorial = false
 
     var body: some View {
         NavigationStack {
@@ -46,6 +47,13 @@ struct EventListView: View {
                         }
                     }
                 }
+                Section {
+                    Button {
+                        showWidgetTutorial = true
+                    } label: {
+                        Label(NSLocalizedString("How to Add Widget", comment: ""), systemImage: "square.grid.2x2")
+                    }
+                }
             }
             .navigationTitle("Events")
             .navigationBarItems(trailing: addButton)
@@ -64,6 +72,7 @@ struct EventListView: View {
                 }
             }
             .sheet(isPresented: $showPaywall) { PaywallView() }
+            .sheet(isPresented: $showWidgetTutorial) { WidgetTutorialView() }
         }
     }
 
